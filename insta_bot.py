@@ -1,7 +1,8 @@
 import instaloader
 import json
 from datetime import datetime
-
+import os
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 # Tere channel ka link – change mat karna
 CHANNEL = "@lifeonbots"
 CHANNEL_LINK = "https://t.me/lifeonbots"
